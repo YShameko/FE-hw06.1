@@ -1,0 +1,64 @@
+@import url("reset.css");
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Inter;
+}
+
+.block-1 {
+    outline: 1px dotted black;
+    color: #000000;
+    background: #F6FFD4;
+    font-size: 0px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.block-1-1 {
+    border: 1px solid #000000;
+    padding: 20px 20px;
+    width: 400px;
+    height: 400px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block-2 {
+    outline: 1px dotted black;
+    font-weight: 400;
+    font-size: 16px;
+    color: green;
+    width: 400px;
+    display: inline-block; 
+}
+
+.block-3 {
+    outline: 1px dotted black;
+    color: #000000;
+    background: #F9E6F9;
+    font-size: 0px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.block-3-1 {
+    border: 1px solid #000000;
+    padding: 20px 20px;
+    width: 400px;
+    height: 400px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block-3-2 {
+    border: 1px solid #000000;
+    padding: 20px 20px;
+    width: 800px;
+    height: 400px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
