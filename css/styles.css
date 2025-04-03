@@ -2,7 +2,7 @@
 
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
     font-family: Inter;
 }
 
@@ -36,7 +36,7 @@
     line-height: 100%;
 }
 
-.fnt-norm {
+.fnt-reg {
     font-weight: 400;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .int-pad {
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 .txt-algn {
@@ -105,7 +105,11 @@
 /* ------------------------------------------------------------------------------------------------------------------------- */
 .index_page {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.index_page div {
+    justify-items: center;
 }
 
 .main_button {
@@ -113,15 +117,18 @@
     border: 3px black;
     border-radius: 6px;
     color: black;
-    background: darkgray;
+    background: lightgray;
     text-decoration: none;
     margin-top: 30px;
-    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    display: block;
     text-align: center;
+    justify-items: center;
 }
 
-.main_button a:hover {
-    background: white;
+.main_button:hover {
+    background: lightgreen;
 }
 
 h1 {
